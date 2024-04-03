@@ -10,8 +10,8 @@ export const startLoginEmailPassword = (email, password) => {
         auth.signInWithEmailAndPassword(email, password)
             .then( ({ user }) => {
                 db.collection('users').doc(user.uid).get()
-                    .then((doc) => {
-                        if(doc.exists) {
+                .then((doc) => {
+                    if(doc.exists) {
                             const userRole = doc.data().role
                             // save uid and name in redux store
                             dispatch( login( user.uid, user.displayName, userRole ) );
