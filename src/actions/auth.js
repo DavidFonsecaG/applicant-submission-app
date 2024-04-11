@@ -18,7 +18,7 @@ export const startLoginEmailPassword = (email, password) => {
                             // loader off
                             dispatch( finishLoading() );
                         } else {
-                            console.log("do not exits :(")
+                            console.log("do not exits ")
                             dispatch( finishLoading() );
                         }
                     }).catch(e => {
