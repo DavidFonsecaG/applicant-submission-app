@@ -12,6 +12,7 @@ export const startLoginEmailPassword = (email, password) => {
                 db.collection('users').doc(user.uid).get()
                 .then((doc) => {
                     if(doc.exists) {
+                            console.log(user)
                             const userRole = doc.data().role
                             // save uid and name in redux store
                             dispatch( login( user.uid, user.displayName, userRole ) );
