@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Document/Application Management System</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome system to manage college admissions
     <br />
     <a href="https://github.com/DavidFonsecaG/applicant-submission-app"><strong>Explore the docs »</strong></a>
     <br />
