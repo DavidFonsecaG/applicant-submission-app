@@ -5,6 +5,7 @@ import { SideBar } from '../components/sidebar'
 import AdminPage from '../pages/admin/AdminPage'
 import ApplicationsPage from '../pages/admin/ApplicationsPage'
 import UsersPage from '../pages/admin/UsersPage'
+import YourProfile from '../pages/YourProfile'
 
 
 const AdminRouter = () => {
@@ -24,7 +25,7 @@ const AdminRouter = () => {
                 <Route path='/users' element={ <UsersPage /> }/>
                 <Route path='/reports' element={ <AdminPage /> }/>
                 <Route path='/settings' element={ <AdminPage /> }/>
-                <Route path='/your-profile' element={ <AdminPage /> }/>
+                <Route path='/your-profile' element={ <YourProfile /> }/>
                 <Route path='/page-not-found' element={<AdminPage />}/>
                 <Route path="*" element={<Navigate to={ '/page-not-found' }/>} />
               </Routes>

@@ -39,7 +39,7 @@ const MainMenu = ({location, isSidebarOpen}) => {
             key={index}
             to={item.to}
             className={classNames(
-            location === item.to ? "bg-gray-800 text-white" : "hover:bg-gray-800 hover:text-white",
+            location === item.to ? "bg-gray-50 text-indigo-600 dark:bg-gray-800 dark:text-white" : "text-gray-600 hover:bg-gray-50 hover:text-indigo-600 dark:hover:bg-gray-800 dark:hover:text-white",
             "flex items-center rounded-md p-2 text-sm font-semibold gap-x-3"
             )}
             aria-current={location === item.to ? "page" : undefined}

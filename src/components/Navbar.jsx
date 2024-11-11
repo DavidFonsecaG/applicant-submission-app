@@ -38,7 +38,7 @@ const Navbar = () => {
                 <input id="search-field" className="appearance-none pl-10 py-0 pr-0 bg-transparent border-0 focus:ring-0 dark:text-white active:border-0 h-16 w-full text-sm text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6" placeholder="Search..." type="search" name="search" autoComplete="off"/>
               </form>
 
-              <div className="hidden md:block">
+              {/* <div className="hidden md:block">
                 <div className="ml-4 flex items-center space-x-4 md:ml-6">
                   <button
                     type="button"
@@ -51,7 +51,6 @@ const Navbar = () => {
 
                   <div className="block h-6 w-px bg-gray-200" aria-hidden="true"></div>
 
-                  {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <Menu.Button className="relative flex max-w-xs items-center text-sm space-x-2">
                       <span className="absolute -inset-1.5" />
@@ -106,7 +105,7 @@ const Navbar = () => {
                     </Transition>
                   </Menu>
                 </div>
-              </div>
+              </div> */}
 
               <div className="-mr-2 flex md:hidden">
                 {/* Mobile menu button */}
